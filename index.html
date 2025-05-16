@@ -51,6 +51,16 @@
       font-size: 1.5rem;
       color: var(--nav-text);
       letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
     }
     .nav-links {
       list-style: none;
@@ -160,7 +170,10 @@
 
   <!-- Navigation -->
   <header class="navbar">
-    <div class="logo">PORTFOLIO</div>
+    <div class="logo">
+      <img class="avatar" src="https://st4.depositphotos.com/5934840/28549/v/450/depositphotos_285495246-stock-illustration-young-woman-avatar-cartoon-character.jpg" alt="Avatar illustration" />
+      PORTFOLIO
+    </div>
 
     <nav aria-label="Main navigation">
       <ul class="nav-links">
@@ -208,17 +221,4 @@
     <ol>
       <li>Week 1 — Prompt Engineering Basics: <em>Coming soon</em></li>
       <li>Week 2 — Automating Literature Reviews: <em>Coming soon</em></li>
-      <li>Week 3 — Data Analysis with No‑Code AI: <em>Coming soon</em></li>
-      <li>Week 4 — AI‑Assisted Manuscript Drafting: <em>Coming soon</em></li>
-      <li>Week 5 — Knowledge‑Graph Grounding: <em>Coming soon</em></li>
-      <li>Week 6 — Task‑Specific Agents: <em>Coming soon</em></li>
-      <li>Week 7 — Responsible AI &amp; Ethics: <em>Coming soon</em></li>
-      <li>Week 8 — Final Capstone Demo: <em>Coming soon</em></li>
-    </ol>
-  </section>
-
-  <footer>
-    &copy; 2025 Michelle Ortiz — All rights reserved.
-  </footer>
-</body>
-</html>
+      <li>Week 3 — Data Analysis with No‑Code AI: <em
