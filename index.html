@@ -59,11 +59,27 @@
       padding: 1rem 0;
     }
 
+    /* Avatar */
+    .avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 0.75rem;
+      flex-shrink: 0;
+    }
+
     .logo {
       font-size: 1.25rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
     }
 
     .main-nav {
@@ -180,7 +196,10 @@
   <!-- HEADER -->
   <header class="site-header">
     <div class="container nav-wrapper">
-      <div class="logo">Kandace Loudor</div>
+      <div class="logo-group">
+        <img class="avatar" src="https://github.com/ericakufa/graph-ai-portfolio/blob/main/photo.jpg?raw=true" alt="Kandace avatar">
+        <div class="logo">Kandace Loudor</div>
+      </div>
       <nav class="main-nav">
         <a href="#about-me">About Me</a>
         <a href="#about-course">Course</a>
@@ -211,7 +230,6 @@
         </p>
       </div>
       <div>
-        <!-- Placeholder visual; replace src with your headshot if desired -->
         <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=800&q=80" alt="Kandace headshot" style="border-radius:10px;">
       </div>
     </div>
@@ -224,40 +242,4 @@
         <h2>About the course</h2>
         <p><strong>Generative AI for Work &amp; Research Productivity</strong> is an eight‑week, live online certification offered by <em>The GRAPH Network</em>. The program teaches practical GenAI skills through real‑world projects and no‑code tools.</p>
         <ul>
-          <li>Automate literature reviews &amp; data analysis</li>
-          <li>Create custom chatbots and AI dashboards</li>
-          <li>Streamline presentations, outreach and workflow automation</li>
-          <li>Weekly hands‑on projects and peer collaboration</li>
-        </ul>
-        <p>Tuition: <strong>$250 per month</strong> (two‑month program). Next cohort starts <time datetime="2025-05-09">May&nbsp;9, 2025</time>.</p>
-        <p><a class="button" href="https://thegraphcourses.org/aiw/" target="_blank" rel="noopener">Course website</a></p>
-      </div>
-      <div>
-        <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=800&q=80" alt="Course illustration" style="border-radius:10px;">
-      </div>
-    </div>
-  </section>
-
-  <!-- SUBMISSIONS -->
-  <section id="submissions" class="section section-alt">
-    <div class="container">
-      <h2 style="text-align:center; margin-bottom:2rem;">Weekly submissions</h2>
-      <ol>
-        <li>Week 1 – <em>Coming soon</em></li>
-        <li>Week 2 – <em>Coming soon</em></li>
-        <li>Week 3 – <em>Coming soon</em></li>
-        <li>Week 4 – <em>Coming soon</em></li>
-        <li>Week 5 – <em>Coming soon</em></li>
-        <li>Week 6 – <em>Coming soon</em></li>
-        <li>Week 7 – <em>Coming soon</em></li>
-        <li>Week 8 – <em>Coming soon</em></li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    &copy; 2025 Kandace Loudor — Built with HTML5 &amp; 💡
-  </footer>
-</body>
-</html>
+          <li>Automate literature reviews &
